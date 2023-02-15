@@ -7,7 +7,7 @@ const addons = document.querySelectorAll(".box");
 const total = document.querySelector(".total b");
 const planPrice = document.querySelector(".plan-price");
 let time;
-let currentStep = 1;
+let currentStep = 0;
 let currentCircle = 0;
 const obj = {
   plan: null,
